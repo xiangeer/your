@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.gwidth{
+	width: 940px;
+	margin: 0 auto;
+}
+.clearfix:after{
+		content:"";
+		clear:both;
+		display: block;
+	}
+.bottom{
+	height: 337px;
+	background-color: #2E3E4F;
+}
+	.bottom .b1,.b2,.b3,.b4{
+		margin-top: 53px;
+	}
+	.b1 .b2 .b3 .b4, h2{
+		margin-bottom: 25px;
+		color: #F98561;
+	}
+	.b1{
+		width: 224px;
+		height: 261px;
+		margin-right: 18px;
+	}
+	.b2{
+		width: 249px;
+		height: 228px;
+		margin-right: 36px;
+	}
+	.b3{
+		width: 232px;
+		height: 262px;
+		margin-right: 12px;
+	}
+	.b4{
+		width: 150px;
+		height: 206px;
+	}
+		.b1 div{
+			height: 66px;
+			border-bottom: 1px solid #556270;
+		}
+		.bp1{
+			font-size: 12px;
+			margin-top: 5px;
+			color: #86939A;
+		}
+		.b1 a{
+			color: #247CA5;
+			font-size: 12px;
+			margin-top: 10px;
+		}
+		.b2 div{
+			height: 66px;
+			border-bottom: 1px solid #556270;
+		}
+		.bp2{
+			font-size: 12px;
+			color: #86939A;
+			line-height: 20px;
+		}
+		form{
+			margin-top: 15px;
+		}
+			form p{
+				font-size: 10px;
+				color: #2190C1;
+				margin-bottom: 16px;
+			}
+			.in1{
+				width: 249px;
+				height: 27px;
+				border-radius:3px;
+				border-style: none;
+			}
+			.in2{
+				background-color: #2190C1;
+				color: #fff;
+				font-size: 12px;
+				width: 77px;
+				height: 27px;
+				border-radius: 3px;
+				margin-top: 16px;
+				border-style: none;
+			}
+		.b3 .body{
+			height: 67px;
+			border-bottom: 1px solid #556270;
+		}
+			.b3 a{
+				color: #247CA5;
+				font-size: 12px;
+				margin-top: 10px;
+			}
+			.nav5{
+				width: 56px;
+				height: 56px;
+				position: relative;
+				overflow: hidden;
+				margin-top: 2px;
+				margin-right: 10px;
+			}
+				.nav52{
+						width: 56px;
+						height: 56px;
+						opacity: 0.5;
+						background: url(../img/m.png) no-repeat center center;
+						background-size: 300%;
+						position: absolute;
+						left:0px;
+						bottom:0px;
+						opacity:1;
+						transition:.35s;
+						pointer-events: none;
+				}
+					.nav5:hover .nav52{
+						transform: scale(2) rotateY(0deg);
+					}
+		.b4 div{
+			width: 149px;
+			height: 37px;
+			margin-top: 30px;
+		}
+		.b4 p{
+			margin-top: 6px;
+			font-size: 10px;
+			color: #A3AFB2;
+		}
